@@ -1,3 +1,5 @@
+<?= require_once './routes.php'?>
+
 <!DOCTYPE html>
  <html lang="en" class="">
 <head>
@@ -7,4 +9,4 @@
     <link href="./dist/output.css" rel="stylesheet">
     </style>
 </head>
-<body class="bg-slate-100 dark:bg-slate-700">
+<body class="bg-slate-100 dark:bg-slate-700 h-full text-center">

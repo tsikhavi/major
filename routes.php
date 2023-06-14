@@ -1,24 +1,27 @@
 <?php
-#require_once 'functions.php';
+require_once 'functions.php';
+// Define routes
+$routes = array(
+    '/' => 'index.php',
+    '/about' => 'about.php',
+    '/contact' => 'contact.php',
+    '/cases' => 'cases.php',
+    '/services' => 'services.php',
+    '/portfolio' => 'portfolio.php',
+    '/seo' => 'seo.php'
+);
 
-$uri = ($_SERVER["REQUEST_URI"]);
+// Get requested URI
+$request_uri = $_SERVER['REQUEST_URI'];
 
-if ($uri === '/'){
-    require_once 'index.php';}
-    elseif ($uri === '/about'){
-        require_once 'about.php';
-}elseif ($uri === '/contact'){
-    require_once 'contact.php';
-}elseif ($uri === '/portfolio'){
-    require_once 'portfolio.php';
-}elseif ($uri === '/services'){
-    require_once 'services.php';
-}elseif ($uri === '/SEO'){
-    require_once 'seo.php';
-}elseif ($uri === '/cases'){
-    require_once 'cases.php';
+// Extract only the path part of the URI (ignore query string)
+$path = parse_url($request_uri, PHP_URL_PATH);
+
+// Check if requested path exists in routes array
+if (array_key_exists($path, $routes)) {
+    // If yes, include corresponding file
+    include $routes[$path];
+} else {
+    // If no, show 404 error
+    include 'views/partials/404.php';
 }
-else{
-    require_once 'views/partials/404.php';
-}
-

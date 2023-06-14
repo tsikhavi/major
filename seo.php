@@ -1,6 +1,6 @@
 <?php
-require_once 'functions.php';
+require_once 'routes.php';
 
-require_once 'views/index.seo.php';
+require_once 'views/seo.view.php';
 
 ?>

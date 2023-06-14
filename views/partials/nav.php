@@ -1,9 +1,9 @@
 <header>
         <nav class="bg-slate-100 border-slate-200 px-4 lg:px-6 py-2.5 dark:bg-slate-900">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-                <a href="https://flowbite.com" class="flex items-center">
+                <a href="/" class="flex items-center">
                     <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-slate-200">Flowbite</span>
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-slate-200">Sautis</span>
                 </a>
                 <div class="flex items-center lg:order-2">
                 <button id="theme-toggle" type="button" class="text-slate-500 rounded-full bg-slate-100 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700 focus:outline-none focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 text-sm p-2.5">
@@ -21,22 +21,38 @@
                 <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                     <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-slate-200 rounded bg-green-700 lg:bg-transparent lg:text-green-700 lg:p-0 dark:text-green-500" aria-current="page">Home</a>
+                            <a href="/" class="block py-2 pr-4 pl-3 text-slate-200 rounded bg-green-700 
+                            lg:bg-transparent lg:text-green-700 lg:p-0 dark:text-green-500" aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100 hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0 dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700 dark:hover:text-green-500 lg:dark:hover:bg-transparent dark:border-slate-700">Company</a>
+                            <a href="/about" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100
+                             hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0
+                              dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700 dark:hover:text-green-500 
+                              lg:dark:hover:bg-transparent dark:border-slate-700">about</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100 hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0 dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700 dark:hover:text-green-500 lg:dark:hover:bg-transparent dark:border-slate-700">Marketplace</a>
+                            <a href="/contact" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100
+                             hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0
+                              dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700
+                               dark:hover:text-green-500 lg:dark:hover:bg-transparent dark:border-slate-700">contact</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100 hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0 dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700 dark:hover:text-green-500 lg:dark:hover:bg-transparent dark:border-slate-700">Features</a>
+                            <a href="/services" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100
+                             hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0
+                              dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700
+                               dark:hover:text-green-500 lg:dark:hover:bg-transparent dark:border-slate-700">services</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100 hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0 dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700 dark:hover:text-green-500 lg:dark:hover:bg-transparent dark:border-slate-700">Team</a>
+                            <a href="/cases" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100
+                             hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0
+                              dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700 dark:hover:text-green-500 
+                              lg:dark:hover:bg-transparent dark:border-slate-700">cases</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100 hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0 dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700 dark:hover:text-green-500 lg:dark:hover:bg-transparent dark:border-slate-700">Contact</a>
+                            <a href="/portfolio" class="block py-2 pr-4 pl-3 text-slate-700 border-b border-slate-100
+                             hover:bg-slate-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-700 lg:p-0
+                              dark:text-slate-400 lg:dark:hover:text-green-500 dark:hover:bg-slate-700 dark:hover:text-green-500 
+                              lg:dark:hover:bg-transparent dark:border-slate-700">portfolio</a>
                         </li>
                     </ul>
                 </div>
