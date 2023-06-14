@@ -1,4 +1,3 @@
-<!-- component -->
 <!DOCTYPE html>
  <html lang="en" class="">
 <head>
@@ -8,4 +7,4 @@
     <link href="./dist/output.css" rel="stylesheet">
     </style>
 </head>
-<body class="bg-slate-100 dark:bg-slate-900">
+<body class="bg-slate-100 dark:bg-slate-700">

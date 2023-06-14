@@ -1,4 +1,6 @@
 <?php
+require_once 'routes.php';
+
 require_once 'partials/head.php';
 
 require_once 'partials/nav.php';
