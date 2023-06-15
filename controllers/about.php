@@ -1,5 +1,5 @@
 <?php
 
-require_once 'views/cases.view.php';
+require_once 'views/about.view.php';
 
 ?>

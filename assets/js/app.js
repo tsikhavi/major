@@ -47,17 +47,21 @@ if (localStorage.getItem('color-theme')) {
 
 });
 
-const backToTopBtn = document.getElementById('back-to-top');
+const backToTop = document.getElementById('backToTop');
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 500) {
-    backToTopBtn.classList.remove('hidden');
-  } else {
-    backToTopBtn.classList.add('hidden');
-  }
-});
+  // Show/hide back to top button based on scroll position
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 0) {
+      backToTop.classList.remove('hidden');
+    } else {
+      backToTop.classList.add('hidden');
+    }
+  });
 
-backToTopBtn.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-});
+  // Scroll to top on click
+  backToTop.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 
+  //animation

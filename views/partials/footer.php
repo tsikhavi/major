@@ -82,25 +82,8 @@
     <a href="#" id="backToTop" class="bg-slate-300 text-slate-900 rounded-full fixed bottom-2 right-2 hidden">
     <i class="fa-solid fa-arrow-up p-2.5"></i></a>
 
-<script>
-  const backToTop = document.getElementById('backToTop');
-
-  // Show/hide back to top button based on scroll position
-  window.addEventListener('scroll', function() {
-    if (window.scrollY > 0) {
-      backToTop.classList.remove('hidden');
-    } else {
-      backToTop.classList.add('hidden');
-    }
-  });
-
-  // Scroll to top on click
-  backToTop.addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-</script>
-
     <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/gsap.min.js"></script>
+
 </body>
 </html>

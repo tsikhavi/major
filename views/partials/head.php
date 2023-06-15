@@ -16,7 +16,14 @@
     <title class="font-sans">Sautis </title>
 
     <style>
-      
+    div .animeee{  display: grid;
+  place-items: center;
+  height: 96vh;
+  font-weight: bold;
+  color: #d7385e;
+  font-size: calc(2rem + 5vw);
+  perspective: 500px;
+}
 
     </style>
   

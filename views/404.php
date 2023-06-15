@@ -1,18 +1,14 @@
-<?php
+<?php require('partials/head.php') ?>
+<?php require('partials/nav.php') ?>
 
-require_once 'head.php';
+<main>
+    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+        <h1 class="text-2xl font-bold">Sorry. Page Not Found.</h1>
 
-?>
-
-<section class="bg-white dark:bg-slate-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div class="mx-auto max-w-screen-sm text-center">
-            <h1 class="mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-red-600 dark:text-red-500">404</h1>
-            <p class="mb-4 text-3xl tracking-tight font-bold text-slate-900 md:text-4xl dark:text-white">Something's missing.</p>
-            <p class="mb-4 text-lg font-light text-slate-500 dark:text-slate-400">Sorry, we can't find that page. You'll find lots to explore on the home page. </p>
-            <a href="/" class="inline-flex text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-red-900 my-4">Back to Homepage</a>
-        </div>   
+        <p class="mt-4">
+            <a href="/" class="text-blue-500 underline">Go back home.</a>
+        </p>
     </div>
-</section>
-</body>
-</html>
+</main>
+
+<?php require('partials/footer.php') ?>
