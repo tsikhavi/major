@@ -14,6 +14,5 @@ require_once 'head.php';
         </div>   
     </div>
 </section>
-<?php
-require_once 'footer.php';
-?>
+</body>
+</html>

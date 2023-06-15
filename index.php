@@ -1,5 +1,4 @@
 <?php
 
-require_once 'views/index.view.php';
-
-?>
+require 'functions.php';
+require 'routes.php';
