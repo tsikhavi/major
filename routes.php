@@ -1,5 +1,10 @@
 <?php
-require_once 'functions.php';
+function dd($value){
+    echo '<pre>';
+    var_dump($value);
+    echo '</pre>';
+}
+
 // Define routes
 $routes = array(
     '/' => 'index.php',
@@ -21,7 +26,15 @@ $path = parse_url($request_uri, PHP_URL_PATH);
 if (array_key_exists($path, $routes)) {
     // If yes, include corresponding file
     include $routes[$path];
+    
+    // Generate dynamic heading based on route value
+    $heading = ucfirst(str_replace('.php', '', $routes[$path]));
 } else {
     // If no, show 404 error
     include 'views/partials/404.php';
+    
+    // Set default heading
+    $heading = '404 Error';
 }
+
+echo $heading;

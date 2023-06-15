@@ -1,10 +1,10 @@
-<footer class="p-4 bg-slate-100 sm:p-6 dark:bg-slate-950">
+<footer class="mt-10 bg-slate-100 sm:p-6 dark:bg-slate-950">
         <div class="mx-auto max-w-screen-xl">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
-                    <a href="https://flowbite.com" class="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-slate-200">Flowbite</span>
+                    <a href="https://Sautis.com" class="flex items-center">
+                        <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="Sautis Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-slate-200">Sautis</span>
                     </a>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -12,7 +12,7 @@
                         <h2 class="mb-6 text-sm font-semibold text-slate-900 uppercase dark:text-slate-200">Resources</h2>
                         <ul class="text-slate-600 dark:text-slate-400">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Flowbite</a>
+                                <a href="#" class="hover:underline">Sautis</a>
                             </li>
                             <li>
                                 <a href="#" class="hover:underline">Tailwind CSS</a>
