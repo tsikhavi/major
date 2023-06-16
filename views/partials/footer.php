@@ -56,7 +56,8 @@
             </div>
             <hr class="my-6 border-slate-200 sm:mx-auto dark:border-slate-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between py-2">
-                <span class="text-sm text-slate-500 sm:text-center dark:text-slate-400">© 2023 <a href="#" class="hover:underline">Sautis</a>. All Rights Reserved.
+                <span class="text-sm text-slate-500 sm:text-center dark:text-slate-400">&copy; <?= date('Y') ?>
+                <a href="#" class="hover:underline">Sautis</a>. All Rights Reserved.
                 </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                     <a href="#" class="text-slate-500 hover:text-slate-100 dark:hover:text-slate-200">

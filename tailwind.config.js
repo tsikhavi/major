@@ -20,6 +20,8 @@ module.exports = {
       serif: ['Merriweather', 'serif'],
       mono: ['Fira Code', 'monospace'],
     },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 }

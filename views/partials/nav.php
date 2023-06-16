@@ -1,6 +1,6 @@
 <header>
-<nav class="sticky top-0 z-50 bg-slate-100 border-slate-200 px-3 font-sans text-sm capitalize 
-                font-bold lg:px-6 py-5 dark:bg-slate-950">           
+<nav class="sticky top-0 z-50 bg-slate-100 border-slate-200 px-2.5 font-sans text-sm capitalize 
+                font-bold lg:px-6 py-2.5 dark:bg-slate-950">           
                 <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a href="/" class="flex items-center">
                     <img src="/assets/images/logo/sautis-website-favicon-color.svg" class="mr-3 h-6 sm:h-9" alt="Sautis Logo" />
